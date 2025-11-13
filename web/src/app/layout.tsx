@@ -34,6 +34,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.cdnfonts.com" />
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/cabinet-grotesk" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${techno.variable} antialiased`}

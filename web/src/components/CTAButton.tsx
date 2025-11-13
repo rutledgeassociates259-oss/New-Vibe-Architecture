@@ -10,7 +10,7 @@ type Props = {
 
 export default function CTAButton({ href, children, className, ariaLabel }: Props) {
   return (
-    <Link href={href} aria-label={ariaLabel ?? (typeof children === "string" ? children : "CTA button")} className={`cta-btn ${className ?? ""}`}>
+    <Link href={"https://buy.stripe.com/eVqfZhaVpaGraFBamB97G00"} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel ?? (typeof children === "string" ? children : "CTA button")} className={`cta-btn ${className ?? ""}`}>
       <span>{children}</span>
     </Link>
   );
