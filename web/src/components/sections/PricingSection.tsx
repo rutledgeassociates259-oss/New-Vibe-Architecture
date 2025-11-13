@@ -37,7 +37,12 @@ export default function PricingSection() {
             Be among the first 100 Founding Architects to experience the full framework.
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-[13px] text-zinc-300">
-           
+           <div className="flex items-center gap-2">
+              <span className="inline-flex h-4 w-4 items-center justify-center rounded-sm bg-white/10 ring-1 ring-white/25">
+                <span className="h-2 w-2 rounded-[2px] bg-[#A78BFA]"></span>
+              </span>
+              7-Day Free Trial
+            </div>
             <div className="flex items-center gap-2">
               <span className="inline-flex h-4 w-4 items-center justify-center rounded-sm bg-white/10 ring-1 ring-white/25">
                 <span className="h-2 w-2 rounded-[2px] bg-[#A78BFA]"></span>
@@ -48,7 +53,7 @@ export default function PricingSection() {
               <span className="inline-flex h-4 w-4 items-center justify-center rounded-sm bg-white/10 ring-1 ring-white/25">
                 <span className="h-2 w-2 rounded-[2px] bg-[#A78BFA]"></span>
               </span>
-              Founding Member Pricing — <span className=" text-decoration-line line-through">$29/month</span>  $9/month (locked for life)
+              Founding Member Pricing — <span className=" text-decoration-line line-through">$29/month</span>  $19/month (locked for life)
             </div>
           </div>
           <div className="mt-8 flex justify-center">
