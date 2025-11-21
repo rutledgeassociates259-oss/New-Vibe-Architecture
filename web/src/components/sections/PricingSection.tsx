@@ -89,7 +89,18 @@ export default function PricingSection() {
             />
           </div>
           <div className="text-center">
-            <p className="text-[11px] text-zinc-400">Powered by The Online Adjunct</p>
+            <p className="text-[11px] text-zinc-400">
+              Design and Developed by
+              {" "}
+              <a
+                href="https://marqnetworks.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                MarqNetworks.com
+              </a>
+            </p>
           </div>
         </div>
         {/* Divider line image below the section */}
