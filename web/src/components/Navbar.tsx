@@ -14,7 +14,7 @@ export default function Navbar() {
           {/* Brand */}
           <div className="flex items-center">
             <Image
-              src="/navbar/logo.png"
+              src="/navbar/logo(2).png"
               alt="Vibe Architects"
               width={220}
               height={28}
