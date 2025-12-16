@@ -14,10 +14,10 @@ export default function Navbar() {
           {/* Brand */}
           <div className="flex items-center">
             <Image
-              src="/navbar/logo(2).png"
+              src="/navbar/logos.png"
               alt="Vibe Architects"
-              width={220}
-              height={28}
+              width={250}
+              height={30}
               priority
             />
           </div>
