@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* Desktop Button */}
           <div className="hidden md:block">
-            <CTAButton href="#contact">Free SignUp</CTAButton>
+            <CTAButton href="#contact">Free Sign Up</CTAButton>
           </div>
         </div>
 
