@@ -5,6 +5,8 @@ import CTAButton from "./CTAButton";
 import { useState } from "react";
 
 export default function Navbar() {
+
+  
   const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <header className="absolute inset-x-0 top-5 z-20">
@@ -52,7 +54,7 @@ export default function Navbar() {
 
           {/* Desktop Button */}
           <div className="hidden md:block">
-            <CTAButton href="#contact">Contact Us</CTAButton>
+            <CTAButton href="#contact">Free SignUp</CTAButton>
           </div>
         </div>
 
